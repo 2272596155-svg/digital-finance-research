@@ -1,0 +1,20 @@
+{
+  "mode": "full",
+  "model": "deepseek-v4-flash",
+  "repeats": 1,
+  "metrics": [
+    {
+      "prompt_id": "P2",
+      "runs": 128,
+      "expected_runs": 128,
+      "scalar_accuracy": 0.95625,
+      "list_f1": 0.660187251984127,
+      "hallucination_rate": 0.024869109947643978,
+      "stability": null,
+      "schema_compliance": 1.0,
+      "avg_runtime_seconds": 2.114255051109353,
+      "speed_score": 1.0,
+      "overall_score": 76.26951729099144
+    }
+  ]
+}
