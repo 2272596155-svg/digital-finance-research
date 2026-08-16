@@ -1,0 +1,94 @@
+{
+  "status": "READY",
+  "experiment_version": "440-v2",
+  "text_basis": "岗位结构化字段与证据摘要；不含完整JD",
+  "model": "deepseek-v4-flash",
+  "api_key_env": "DEEPSEEK_API_KEY",
+  "key_value_logged": false,
+  "network_request_sent": false,
+  "checks": [
+    {
+      "check": "input_jobs",
+      "expected": 439,
+      "actual": 439,
+      "pass": true
+    },
+    {
+      "check": "benchmark_jobs",
+      "expected": 88,
+      "actual": 88,
+      "pass": true
+    },
+    {
+      "check": "benchmark_ai_jobs",
+      "expected": 44,
+      "actual": 44,
+      "pass": true
+    },
+    {
+      "check": "benchmark_non_ai_jobs",
+      "expected": 44,
+      "actual": 44,
+      "pass": true
+    },
+    {
+      "check": "prompt_ids",
+      "expected": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "actual": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unique_job_ids",
+      "expected": 439,
+      "actual": 439,
+      "pass": true
+    },
+    {
+      "check": "unique_benchmark_ids",
+      "expected": 88,
+      "actual": 88,
+      "pass": true
+    },
+    {
+      "check": "benchmark_ids_exist",
+      "expected": 88,
+      "actual": 88,
+      "pass": true
+    },
+    {
+      "check": "reference_schema_errors",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "check": "blank_source_text",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "check": "api_key_env",
+      "expected": "configured",
+      "actual": "configured",
+      "pass": true
+    }
+  ],
+  "planned_benchmark_calls": 792,
+  "planned_full_calls": 439,
+  "benchmark_list_reference_coverage": {
+    "hard_skills": 20,
+    "soft_skills": 0,
+    "ai_stack": 23
+  },
+  "list_f1_rule": "只在参考列表非空时计算；空参考样本由幻觉率约束，不计作F1=1。"
+}
+

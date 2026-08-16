@@ -1,0 +1,1504 @@
+{
+  "experiment_version": "440-v2",
+  "mode": "benchmark",
+  "text_basis": "岗位结构化字段与证据摘要；不含完整JD",
+  "reference_type": "规则生成并待人工复核的银标准",
+  "model": "deepseek-v4-flash",
+  "temperature": 0.0,
+  "max_tokens": 1200,
+  "repeats": 3,
+  "planned_runs": 792,
+  "recorded_runs": 792,
+  "new_api_calls_this_execution": 792,
+  "resume_skipped_runs": 0,
+  "complete": true,
+  "metrics": [
+    {
+      "prompt_id": "P1",
+      "runs": 264,
+      "expected_runs": 264,
+      "successes": 264,
+      "failures": 0,
+      "scalar_accuracy": 0.8939393939393939,
+      "list_f1": 0.28300464967131633,
+      "list_f1_by_field": {
+        "hard_skills": 0.20166666666666666,
+        "soft_skills": null,
+        "ai_stack": 0.4116004768178681
+      },
+      "list_f1_evaluable_runs": 108,
+      "list_f1_evaluable_runs_by_field": {
+        "hard_skills": 60,
+        "soft_skills": 0,
+        "ai_stack": 69
+      },
+      "hallucination_rate": 0.02042079207920792,
+      "stability": 0.9864748677248677,
+      "schema_compliance": 0.9962121212121212,
+      "avg_runtime_seconds": 1.1124331653257504,
+      "prompt_tokens": 43746,
+      "completion_tokens": 15002,
+      "speed_score": 1.0,
+      "overall_score": 81.74593863156157
+    },
+    {
+      "prompt_id": "P3",
+      "runs": 264,
+      "expected_runs": 264,
+      "successes": 264,
+      "failures": 0,
+      "scalar_accuracy": 0.9386363636363637,
+      "list_f1": 0.27152176527176525,
+      "list_f1_by_field": {
+        "hard_skills": 0.2025,
+        "soft_skills": null,
+        "ai_stack": 0.36768304159608506
+      },
+      "list_f1_evaluable_runs": 108,
+      "list_f1_evaluable_runs_by_field": {
+        "hard_skills": 60,
+        "soft_skills": 0,
+        "ai_stack": 69
+      },
+      "hallucination_rate": 0.0080545229244114,
+      "stability": 0.9884091851795201,
+      "schema_compliance": 1.0,
+      "avg_runtime_seconds": 1.6353139168257536,
+      "prompt_tokens": 85458,
+      "completion_tokens": 41159,
+      "speed_score": 0.6802566491240121,
+      "overall_score": 81.61558416472879
+    },
+    {
+      "prompt_id": "P2",
+      "runs": 264,
+      "expected_runs": 264,
+      "successes": 264,
+      "failures": 0,
+      "scalar_accuracy": 0.9583333333333334,
+      "list_f1": 0.14473404681738014,
+      "list_f1_by_field": {
+        "hard_skills": 0.05472222222222223,
+        "soft_skills": null,
+        "ai_stack": 0.2545642763034067
+      },
+      "list_f1_evaluable_runs": 108,
+      "list_f1_evaluable_runs_by_field": {
+        "hard_skills": 60,
+        "soft_skills": 0,
+        "ai_stack": 69
+      },
+      "hallucination_rate": 0.0020026702269692926,
+      "stability": 0.9847960120687393,
+      "schema_compliance": 1.0,
+      "avg_runtime_seconds": 1.4594492890984647,
+      "prompt_tokens": 69882,
+      "completion_tokens": 37869,
+      "speed_score": 0.7622280360374329,
+      "overall_score": 80.17769454189164
+    }
+  ],
+  "subgroups": {
+    "ai_related": [
+      {
+        "prompt_id": "P1",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.8924242424242425,
+        "list_f1": 0.16666666666666666,
+        "list_f1_by_field": {
+          "hard_skills": 0.16666666666666666,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 21,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 21,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.021834061135371178,
+        "stability": 0.9781204906204906,
+        "schema_compliance": 0.9924242424242424,
+        "avg_runtime_seconds": 1.0864280573030238,
+        "prompt_tokens": 21297,
+        "completion_tokens": 7038,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "ai_related": "False"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.9621212121212122,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 21,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 21,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.98989898989899,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4281970917727207,
+        "prompt_tokens": 34365,
+        "completion_tokens": 17838,
+        "speed_score": 0.7606989704442803,
+        "overall_score": null,
+        "ai_related": "False"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.9454545454545454,
+        "list_f1": 0.21428571428571427,
+        "list_f1_by_field": {
+          "hard_skills": 0.21428571428571427,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 21,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 21,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.010014306151645207,
+        "stability": 0.9917929292929292,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5765692696817923,
+        "prompt_tokens": 42153,
+        "completion_tokens": 18772,
+        "speed_score": 0.6891089901316569,
+        "overall_score": null,
+        "ai_related": "False"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.8954545454545455,
+        "list_f1": 0.31108623177588696,
+        "list_f1_by_field": {
+          "hard_skills": 0.2205128205128205,
+          "soft_skills": null,
+          "ai_stack": 0.4116004768178681
+        },
+        "list_f1_evaluable_runs": 87,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 39,
+          "soft_skills": 0,
+          "ai_stack": 69
+        },
+        "hallucination_rate": 0.0193756727664155,
+        "stability": 0.9948292448292448,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.1384382733484768,
+        "prompt_tokens": 22449,
+        "completion_tokens": 7964,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "ai_related": "True"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.9545454545454546,
+        "list_f1": 0.17966985122157536,
+        "list_f1_by_field": {
+          "hard_skills": 0.0841880341880342,
+          "soft_skills": null,
+          "ai_stack": 0.2545642763034067
+        },
+        "list_f1_evaluable_runs": 87,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 39,
+          "soft_skills": 0,
+          "ai_stack": 69
+        },
+        "hallucination_rate": 0.003579952267303103,
+        "stability": 0.9796930342384887,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4907014864242087,
+        "prompt_tokens": 35517,
+        "completion_tokens": 20031,
+        "speed_score": 0.7636929886474344,
+        "overall_score": null,
+        "ai_related": "True"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 132,
+        "expected_runs": 132,
+        "successes": 132,
+        "failures": 0,
+        "scalar_accuracy": 0.9318181818181818,
+        "list_f1": 0.2853373637856396,
+        "list_f1_by_field": {
+          "hard_skills": 0.19615384615384615,
+          "soft_skills": null,
+          "ai_stack": 0.36768304159608506
+        },
+        "list_f1_evaluable_runs": 87,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 39,
+          "soft_skills": 0,
+          "ai_stack": 69
+        },
+        "hallucination_rate": 0.006557377049180328,
+        "stability": 0.9850254410661109,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6940585639697148,
+        "prompt_tokens": 43305,
+        "completion_tokens": 22387,
+        "speed_score": 0.672018251057836,
+        "overall_score": null,
+        "ai_related": "True"
+      }
+    ],
+    "category": [
+      {
+        "prompt_id": "P1",
+        "runs": 24,
+        "expected_runs": 24,
+        "successes": 24,
+        "failures": 0,
+        "scalar_accuracy": 0.9249999999999999,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 9,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0717502519583018,
+        "prompt_tokens": 4065,
+        "completion_tokens": 1302,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "AI产品/实施/运营岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 24,
+        "expected_runs": 24,
+        "successes": 24,
+        "failures": 0,
+        "scalar_accuracy": 1.0,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 9,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4740909116249554,
+        "prompt_tokens": 6441,
+        "completion_tokens": 3573,
+        "speed_score": 0.7270584490456319,
+        "overall_score": null,
+        "category": "AI产品/实施/运营岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 24,
+        "expected_runs": 24,
+        "successes": 24,
+        "failures": 0,
+        "scalar_accuracy": 0.975,
+        "list_f1": 0.5555555555555556,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.5555555555555556
+        },
+        "list_f1_evaluable_runs": 9,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9924242424242424,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.695569355000013,
+        "prompt_tokens": 7857,
+        "completion_tokens": 4256,
+        "speed_score": 0.6320887133267948,
+        "overall_score": null,
+        "category": "AI产品/实施/运营岗位"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 105,
+        "expected_runs": 105,
+        "successes": 105,
+        "failures": 0,
+        "scalar_accuracy": 0.8914285714285713,
+        "list_f1": 0.34811808561808566,
+        "list_f1_by_field": {
+          "hard_skills": 0.19999999999999998,
+          "soft_skills": null,
+          "ai_stack": 0.47334054834054834
+        },
+        "list_f1_evaluable_runs": 72,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 33,
+          "soft_skills": 0,
+          "ai_stack": 60
+        },
+        "hallucination_rate": 0.015523932729624839,
+        "stability": 0.9934996220710506,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.1490385934476135,
+        "prompt_tokens": 17715,
+        "completion_tokens": 6356,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "AI研发/算法岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 105,
+        "expected_runs": 105,
+        "successes": 105,
+        "failures": 0,
+        "scalar_accuracy": 0.9485714285714285,
+        "list_f1": 0.21710107022607023,
+        "list_f1_by_field": {
+          "hard_skills": 0.09949494949494951,
+          "soft_skills": null,
+          "ai_stack": 0.2927489177489177
+        },
+        "list_f1_evaluable_runs": 72,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 33,
+          "soft_skills": 0,
+          "ai_stack": 60
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9744712430426716,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4940742245237766,
+        "prompt_tokens": 28110,
+        "completion_tokens": 15855,
+        "speed_score": 0.7690639290787977,
+        "overall_score": null,
+        "category": "AI研发/算法岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 105,
+        "expected_runs": 105,
+        "successes": 105,
+        "failures": 0,
+        "scalar_accuracy": 0.9257142857142857,
+        "list_f1": 0.2753382034632035,
+        "list_f1_by_field": {
+          "hard_skills": 0.23181818181818184,
+          "soft_skills": null,
+          "ai_stack": 0.33950216450216447
+        },
+        "list_f1_evaluable_runs": 72,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 33,
+          "soft_skills": 0,
+          "ai_stack": 60
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9829064419289983,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6971986068476348,
+        "prompt_tokens": 34305,
+        "completion_tokens": 17506,
+        "speed_score": 0.6770207027107039,
+        "overall_score": null,
+        "category": "AI研发/算法岗位"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 51,
+        "expected_runs": 51,
+        "successes": 51,
+        "failures": 0,
+        "scalar_accuracy": 0.9019607843137255,
+        "list_f1": 0.2037037037037037,
+        "list_f1_by_field": {
+          "hard_skills": 0.2037037037037037,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 27,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.06164383561643835,
+        "stability": 0.9512138188608777,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.106263626529417,
+        "prompt_tokens": 8370,
+        "completion_tokens": 2865,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "数据/软件/数字化岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 51,
+        "expected_runs": 51,
+        "successes": 51,
+        "failures": 0,
+        "scalar_accuracy": 0.988235294117647,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 27,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.010752688172043012,
+        "stability": 0.9869281045751634,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.469959176529399,
+        "prompt_tokens": 13419,
+        "completion_tokens": 7356,
+        "speed_score": 0.7525811901398011,
+        "overall_score": null,
+        "category": "数据/软件/数字化岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 51,
+        "expected_runs": 51,
+        "successes": 51,
+        "failures": 0,
+        "scalar_accuracy": 0.988235294117647,
+        "list_f1": 0.16666666666666666,
+        "list_f1_by_field": {
+          "hard_skills": 0.16666666666666666,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 27,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.039735099337748346,
+        "stability": 0.9934640522875817,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5944588145686402,
+        "prompt_tokens": 16428,
+        "completion_tokens": 8067,
+        "speed_score": 0.6938176241502368,
+        "overall_score": null,
+        "category": "数据/软件/数字化岗位"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.8857142857142858,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0942421759523422,
+        "prompt_tokens": 3399,
+        "completion_tokens": 1214,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "职能支持岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.8857142857142858,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.3793183681428738,
+        "prompt_tokens": 5478,
+        "completion_tokens": 2700,
+        "speed_score": 0.7933209628938962,
+        "overall_score": null,
+        "category": "职能支持岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.8857142857142858,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.514786688428536,
+        "prompt_tokens": 6717,
+        "completion_tokens": 2724,
+        "speed_score": 0.722373773357836,
+        "overall_score": null,
+        "category": "职能支持岗位"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 9,
+        "expected_runs": 9,
+        "successes": 9,
+        "failures": 0,
+        "scalar_accuracy": 0.9333333333333333,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0865987171110747,
+        "prompt_tokens": 1515,
+        "completion_tokens": 459,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "运营/生产岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 9,
+        "expected_runs": 9,
+        "successes": 9,
+        "failures": 0,
+        "scalar_accuracy": 1.0,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.426454329333309,
+        "prompt_tokens": 2406,
+        "completion_tokens": 1221,
+        "speed_score": 0.7617479892391124,
+        "overall_score": null,
+        "category": "运营/生产岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 9,
+        "expected_runs": 9,
+        "successes": 9,
+        "failures": 0,
+        "scalar_accuracy": 0.9333333333333333,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5822571765555595,
+        "prompt_tokens": 2937,
+        "completion_tokens": 1336,
+        "speed_score": 0.6867396357629475,
+        "overall_score": null,
+        "category": "运营/生产岗位"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 54,
+        "expected_runs": 54,
+        "successes": 54,
+        "failures": 0,
+        "scalar_accuracy": 0.8740740740740741,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.011152416356877323,
+        "stability": 0.9925925925925926,
+        "schema_compliance": 0.9814814814814815,
+        "avg_runtime_seconds": 1.0765440404629687,
+        "prompt_tokens": 8682,
+        "completion_tokens": 2806,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "category": "金融业务岗位"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 54,
+        "expected_runs": 54,
+        "successes": 54,
+        "failures": 0,
+        "scalar_accuracy": 0.9518518518518518,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9876543209876544,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4123508179629585,
+        "prompt_tokens": 14028,
+        "completion_tokens": 7164,
+        "speed_score": 0.7622355768630306,
+        "overall_score": null,
+        "category": "金融业务岗位"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 54,
+        "expected_runs": 54,
+        "successes": 54,
+        "failures": 0,
+        "scalar_accuracy": 0.9222222222222222,
+        "list_f1": null,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 0,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0036900369003690036,
+        "stability": 0.9861111111111112,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5825022447036485,
+        "prompt_tokens": 17214,
+        "completion_tokens": 7270,
+        "speed_score": 0.6802796293439511,
+        "overall_score": null,
+        "category": "金融业务岗位"
+      }
+    ],
+    "quality": [
+      {
+        "prompt_id": "P1",
+        "runs": 72,
+        "expected_runs": 72,
+        "successes": 72,
+        "failures": 0,
+        "scalar_accuracy": 0.8999999999999999,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.016216216216216217,
+        "stability": 0.9851851851851853,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0810611634444234,
+        "prompt_tokens": 11631,
+        "completion_tokens": 3691,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "quality": "中"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 72,
+        "expected_runs": 72,
+        "successes": 72,
+        "failures": 0,
+        "scalar_accuracy": 0.9583333333333334,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4094026389999972,
+        "prompt_tokens": 18759,
+        "completion_tokens": 9528,
+        "speed_score": 0.7670350072648229,
+        "overall_score": null,
+        "quality": "中"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 72,
+        "expected_runs": 72,
+        "successes": 72,
+        "failures": 0,
+        "scalar_accuracy": 0.9416666666666667,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.996031746031746,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5515223637222089,
+        "prompt_tokens": 23007,
+        "completion_tokens": 10065,
+        "speed_score": 0.6967744640501883,
+        "overall_score": null,
+        "quality": "中"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 192,
+        "expected_runs": 192,
+        "successes": 192,
+        "failures": 0,
+        "scalar_accuracy": 0.8916666666666666,
+        "list_f1": 0.33960557960557963,
+        "list_f1_by_field": {
+          "hard_skills": 0.2688888888888889,
+          "soft_skills": null,
+          "ai_stack": 0.43030958940049846
+        },
+        "list_f1_evaluable_runs": 90,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 45,
+          "soft_skills": 0,
+          "ai_stack": 66
+        },
+        "hallucination_rate": 0.021669341894060994,
+        "stability": 0.9869584986772487,
+        "schema_compliance": 0.9947916666666666,
+        "avg_runtime_seconds": 1.1241976660312478,
+        "prompt_tokens": 32115,
+        "completion_tokens": 11311,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "quality": "高"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 192,
+        "expected_runs": 192,
+        "successes": 192,
+        "failures": 0,
+        "scalar_accuracy": 0.9583333333333334,
+        "list_f1": 0.17368085618085619,
+        "list_f1_by_field": {
+          "hard_skills": 0.07296296296296297,
+          "soft_skills": null,
+          "ai_stack": 0.2661353797717434
+        },
+        "list_f1_evaluable_runs": 90,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 45,
+          "soft_skills": 0,
+          "ai_stack": 66
+        },
+        "hallucination_rate": 0.00265017667844523,
+        "stability": 0.9790945165945166,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.47821678288539,
+        "prompt_tokens": 51123,
+        "completion_tokens": 28341,
+        "speed_score": 0.7605093373631449,
+        "overall_score": null,
+        "quality": "高"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 192,
+        "expected_runs": 192,
+        "successes": 192,
+        "failures": 0,
+        "scalar_accuracy": 0.9375,
+        "list_f1": 0.3258261183261183,
+        "list_f1_by_field": {
+          "hard_skills": 0.27,
+          "soft_skills": null,
+          "ai_stack": 0.38439590712317984
+        },
+        "list_f1_evaluable_runs": 90,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 45,
+          "soft_skills": 0,
+          "ai_stack": 66
+        },
+        "hallucination_rate": 0.010577705451586655,
+        "stability": 0.9855507248599353,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6667357492395827,
+        "prompt_tokens": 62451,
+        "completion_tokens": 31094,
+        "speed_score": 0.6744906422893624,
+        "overall_score": null,
+        "quality": "高"
+      }
+    ],
+    "source": [
+      {
+        "prompt_id": "P1",
+        "runs": 66,
+        "expected_runs": 66,
+        "successes": 66,
+        "failures": 0,
+        "scalar_accuracy": 0.890909090909091,
+        "list_f1": 0.3757704596990311,
+        "list_f1_by_field": {
+          "hard_skills": 0.1277777777777778,
+          "soft_skills": null,
+          "ai_stack": 0.6682700016033349
+        },
+        "list_f1_evaluable_runs": 42,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 27
+        },
+        "hallucination_rate": 0.035781544256120526,
+        "stability": 0.9844276094276094,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.1735990948787784,
+        "prompt_tokens": 11388,
+        "completion_tokens": 4190,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "BOSS直聘"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 66,
+        "expected_runs": 66,
+        "successes": 66,
+        "failures": 0,
+        "scalar_accuracy": 0.9363636363636363,
+        "list_f1": 0.12081271902700473,
+        "list_f1_by_field": {
+          "hard_skills": 0.0771604938271605,
+          "soft_skills": null,
+          "ai_stack": 0.2113997113997114
+        },
+        "list_f1_evaluable_runs": 42,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 27
+        },
+        "hallucination_rate": 0.007444168734491315,
+        "stability": 0.9848484848484849,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5126624378787579,
+        "prompt_tokens": 17922,
+        "completion_tokens": 9820,
+        "speed_score": 0.7758499619548589,
+        "overall_score": null,
+        "source": "BOSS直聘"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 66,
+        "expected_runs": 66,
+        "successes": 66,
+        "failures": 0,
+        "scalar_accuracy": 0.9363636363636363,
+        "list_f1": 0.3813620902906617,
+        "list_f1_by_field": {
+          "hard_skills": 0.1277777777777778,
+          "soft_skills": null,
+          "ai_stack": 0.6301106301106301
+        },
+        "list_f1_evaluable_runs": 42,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 27,
+          "soft_skills": 0,
+          "ai_stack": 27
+        },
+        "hallucination_rate": 0.024691358024691357,
+        "stability": 0.9865003417634998,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.7512756000454637,
+        "prompt_tokens": 21816,
+        "completion_tokens": 11466,
+        "speed_score": 0.6701395798858337,
+        "overall_score": null,
+        "source": "BOSS直聘"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 15,
+        "expected_runs": 15,
+        "successes": 15,
+        "failures": 0,
+        "scalar_accuracy": 0.9600000000000001,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.1165342918666434,
+        "prompt_tokens": 2469,
+        "completion_tokens": 764,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "企查查"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 15,
+        "expected_runs": 15,
+        "successes": 15,
+        "failures": 0,
+        "scalar_accuracy": 0.9466666666666667,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9555555555555555,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4456124440666522,
+        "prompt_tokens": 3954,
+        "completion_tokens": 1975,
+        "speed_score": 0.7723607364126729,
+        "overall_score": null,
+        "source": "企查查"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 15,
+        "expected_runs": 15,
+        "successes": 15,
+        "failures": 0,
+        "scalar_accuracy": 0.8800000000000001,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": null
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 0
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4558825650666223,
+        "prompt_tokens": 4839,
+        "completion_tokens": 1908,
+        "speed_score": 0.7669123311573898,
+        "overall_score": null,
+        "source": "企查查"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 60,
+        "expected_runs": 60,
+        "successes": 60,
+        "failures": 0,
+        "scalar_accuracy": 0.7266666666666667,
+        "list_f1": 0.4680555555555555,
+        "list_f1_by_field": {
+          "hard_skills": 0.38749999999999996,
+          "soft_skills": null,
+          "ai_stack": 0.6666666666666666
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 12,
+          "soft_skills": 0,
+          "ai_stack": 12
+        },
+        "hallucination_rate": 0.02027027027027027,
+        "stability": 0.9933333333333334,
+        "schema_compliance": 0.9833333333333333,
+        "avg_runtime_seconds": 1.1106274738999824,
+        "prompt_tokens": 9690,
+        "completion_tokens": 2995,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "公司官网"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 60,
+        "expected_runs": 60,
+        "successes": 60,
+        "failures": 0,
+        "scalar_accuracy": 0.9299999999999999,
+        "list_f1": 0.37222222222222223,
+        "list_f1_by_field": {
+          "hard_skills": 0.10000000000000002,
+          "soft_skills": null,
+          "ai_stack": 0.6666666666666666
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 12,
+          "soft_skills": 0,
+          "ai_stack": 12
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9909090909090909,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4521323395499848,
+        "prompt_tokens": 15630,
+        "completion_tokens": 8024,
+        "speed_score": 0.7648252460544783,
+        "overall_score": null,
+        "source": "公司官网"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 60,
+        "expected_runs": 60,
+        "successes": 60,
+        "failures": 0,
+        "scalar_accuracy": 0.89,
+        "list_f1": 0.44166666666666665,
+        "list_f1_by_field": {
+          "hard_skills": 0.47500000000000003,
+          "soft_skills": null,
+          "ai_stack": 0.5
+        },
+        "list_f1_evaluable_runs": 18,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 12,
+          "soft_skills": 0,
+          "ai_stack": 12
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6377016471333188,
+        "prompt_tokens": 19170,
+        "completion_tokens": 9006,
+        "speed_score": 0.678162274455825,
+        "overall_score": null,
+        "source": "公司官网"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 27,
+        "expected_runs": 27,
+        "successes": 27,
+        "failures": 0,
+        "scalar_accuracy": 0.9333333333333333,
+        "list_f1": 0.36309523809523814,
+        "list_f1_by_field": {
+          "hard_skills": 0.6666666666666666,
+          "soft_skills": null,
+          "ai_stack": 0.2619047619047619
+        },
+        "list_f1_evaluable_runs": 12,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.978835978835979,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.1223244778147832,
+        "prompt_tokens": 4479,
+        "completion_tokens": 1660,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "智联招聘"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 27,
+        "expected_runs": 27,
+        "successes": 27,
+        "failures": 0,
+        "scalar_accuracy": 0.9777777777777777,
+        "list_f1": 0.32142857142857145,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.4285714285714286
+        },
+        "list_f1_evaluable_runs": 12,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9667789001122336,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5432232246666815,
+        "prompt_tokens": 7152,
+        "completion_tokens": 4271,
+        "speed_score": 0.7272599711277624,
+        "overall_score": null,
+        "source": "智联招聘"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 27,
+        "expected_runs": 27,
+        "successes": 27,
+        "failures": 0,
+        "scalar_accuracy": 0.9777777777777777,
+        "list_f1": 0.44642857142857145,
+        "list_f1_by_field": {
+          "hard_skills": 1.0,
+          "soft_skills": null,
+          "ai_stack": 0.2619047619047619
+        },
+        "list_f1_evaluable_runs": 12,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 3,
+          "soft_skills": 0,
+          "ai_stack": 9
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9943019943019943,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6762933908888937,
+        "prompt_tokens": 8745,
+        "completion_tokens": 4640,
+        "speed_score": 0.6695274728844719,
+        "overall_score": null,
+        "source": "智联招聘"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.9428571428571428,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.04411764705882353,
+        "stability": 0.9727891156462585,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0783028663334204,
+        "prompt_tokens": 3423,
+        "completion_tokens": 1310,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "未标注"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.9714285714285713,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9841269841269842,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.4326751611428379,
+        "prompt_tokens": 5502,
+        "completion_tokens": 3328,
+        "speed_score": 0.752649934597361,
+        "overall_score": null,
+        "source": "未标注"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 21,
+        "expected_runs": 21,
+        "successes": 21,
+        "failures": 0,
+        "scalar_accuracy": 0.9428571428571428,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": null,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 3,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 0,
+          "soft_skills": 0,
+          "ai_stack": 3
+        },
+        "hallucination_rate": 0.0072992700729927005,
+        "stability": 0.9040404040404041,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.6374297845714172,
+        "prompt_tokens": 6741,
+        "completion_tokens": 3658,
+        "speed_score": 0.6585338049262716,
+        "overall_score": null,
+        "source": "未标注"
+      },
+      {
+        "prompt_id": "P1",
+        "runs": 75,
+        "expected_runs": 75,
+        "successes": 75,
+        "failures": 0,
+        "scalar_accuracy": 0.9893333333333334,
+        "list_f1": 0.06666666666666667,
+        "list_f1_by_field": {
+          "hard_skills": 0.13333333333333333,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 30,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 18
+        },
+        "hallucination_rate": 0.0051813471502590676,
+        "stability": 0.9866666666666667,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.0652270863733218,
+        "prompt_tokens": 12297,
+        "completion_tokens": 4083,
+        "speed_score": 1.0,
+        "overall_score": null,
+        "source": "猎聘"
+      },
+      {
+        "prompt_id": "P2",
+        "runs": 75,
+        "expected_runs": 75,
+        "successes": 75,
+        "failures": 0,
+        "scalar_accuracy": 0.9920000000000001,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 30,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 18
+        },
+        "hallucination_rate": 0.0,
+        "stability": 0.9923809523809524,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.3985807858399706,
+        "prompt_tokens": 19722,
+        "completion_tokens": 10451,
+        "speed_score": 0.7616485920286394,
+        "overall_score": null,
+        "source": "猎聘"
+      },
+      {
+        "prompt_id": "P3",
+        "runs": 75,
+        "expected_runs": 75,
+        "successes": 75,
+        "failures": 0,
+        "scalar_accuracy": 0.9760000000000001,
+        "list_f1": 0.0,
+        "list_f1_by_field": {
+          "hard_skills": 0.0,
+          "soft_skills": null,
+          "ai_stack": 0.0
+        },
+        "list_f1_evaluable_runs": 30,
+        "list_f1_evaluable_runs_by_field": {
+          "hard_skills": 15,
+          "soft_skills": 0,
+          "ai_stack": 18
+        },
+        "hallucination_rate": 0.0,
+        "stability": 1.0,
+        "schema_compliance": 1.0,
+        "avg_runtime_seconds": 1.5518986680666664,
+        "prompt_tokens": 24147,
+        "completion_tokens": 10481,
+        "speed_score": 0.6864024747829488,
+        "overall_score": null,
+        "source": "猎聘"
+      }
+    ]
+  },
+  "key_value_logged": false
+}
