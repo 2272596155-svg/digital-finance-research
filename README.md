@@ -22,15 +22,13 @@
 ```text
 digital-finance-research/
 ├─ README.md
-├─ Prompt设计与运行说明.md
 ├─ requirements.txt
 ├─ .env.example
 ├─ .gitignore
 ├─ prompt_experiment_runner_440_v2.py
 ├─ recruitment_prompt_input_440_v2.json
 ├─ verify_results_440_v2.py
-├─ data/
-│  └─ 440条岗位数据_整理版.xlsx
+├─  440条岗位数据_整理版.xlsx
 └─ runs_440_v2/
    ├─ preflight_report.json
    ├─ benchmark_metrics.json
