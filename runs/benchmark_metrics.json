@@ -1,0 +1,46 @@
+{
+  "mode": "benchmark",
+  "model": "deepseek-v4-flash",
+  "repeats": 3,
+  "metrics": [
+    {
+      "prompt_id": "P2",
+      "runs": 72,
+      "expected_runs": 72,
+      "scalar_accuracy": 0.9666666666666666,
+      "list_f1": 0.6096340388007054,
+      "hallucination_rate": 0.042986425339366516,
+      "stability": 0.9773328523328524,
+      "schema_compliance": 1.0,
+      "avg_runtime_seconds": 1.6941059316805631,
+      "speed_score": 0.7539475054383625,
+      "overall_score": 88.54775045471455
+    },
+    {
+      "prompt_id": "P1",
+      "runs": 72,
+      "expected_runs": 72,
+      "scalar_accuracy": 0.9527777777777777,
+      "list_f1": 0.5644620811287477,
+      "hallucination_rate": 0.1165644171779141,
+      "stability": 0.9597295066045066,
+      "schema_compliance": 0.9861111111111112,
+      "avg_runtime_seconds": 1.2772669411388935,
+      "speed_score": 1.0,
+      "overall_score": 86.2849626810836
+    },
+    {
+      "prompt_id": "P3",
+      "runs": 72,
+      "expected_runs": 72,
+      "scalar_accuracy": 0.9527777777777777,
+      "list_f1": 0.602868633424189,
+      "hallucination_rate": 0.09202453987730061,
+      "stability": 0.9351604958222605,
+      "schema_compliance": 1.0,
+      "avg_runtime_seconds": 1.883464758569444,
+      "speed_score": 0.6781475126240332,
+      "overall_score": 85.75823750533867
+    }
+  ]
+}
